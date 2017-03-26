@@ -1,0 +1,164 @@
+{
+  "name": "RobotMetrics",
+  "projectType": "AR",
+  "fileName": "RobotMetrics",
+  "thingworxServer": "https://sgstgc0h.pp.vuforia.io",
+  "mainNavigationMenuStyle": "leftSideMenu",
+  "mainNavigationMenuItems": [],
+  "creator": "_unknown_",
+  "theme": "twx-light",
+  "hideExperienceHeader": false,
+  "parameters": {
+    "vumark": {
+      "name": "ThingMark",
+      "id": "vumark",
+      "value": "1365:1",
+      "isBound": false,
+      "isDeletable": false
+    },
+    "template": {
+      "name": "Thing Template",
+      "id": "template",
+      "value": "",
+      "isBound": false,
+      "isDeletable": false
+    },
+    "thing": {
+      "name": "Thing",
+      "id": "thing",
+      "value": "",
+      "isBound": false,
+      "isDeletable": false
+    },
+    "KPI Height": {
+      "value": "1.43",
+      "name": "KPI Height",
+      "id": "KPI Height"
+    },
+    "Order Height": {
+      "value": "1.29",
+      "name": "Order Height",
+      "id": "Order Height"
+    },
+    "AlertsHeight": {
+      "value": "1.59",
+      "name": "AlertsHeight",
+      "id": "AlertsHeight"
+    },
+    "KPILabelHeight": {
+      "value": "1.53",
+      "name": "KPILabelHeight",
+      "id": "KPILabelHeight"
+    },
+    "TitleHeight": {
+      "value": "1.65",
+      "name": "TitleHeight",
+      "id": "TitleHeight"
+    },
+    "Depth": {
+      "value": ".33",
+      "name": "Depth",
+      "id": "Depth"
+    },
+    "MaintainenceHeight": {
+      "value": "1.2",
+      "name": "MaintainenceHeight",
+      "id": "MaintainenceHeight"
+    },
+    "PneumaticGaugesHeight": {
+      "value": "1.48",
+      "name": "PneumaticGaugesHeight",
+      "id": "PneumaticGaugesHeight"
+    },
+    "PneumaticGaugeLabelHeight": {
+      "value": "1.377",
+      "name": "PneumaticGaugeLabelHeight",
+      "id": "PneumaticGaugeLabelHeight"
+    },
+    "PneumaticTitleHeight": {
+      "value": "1.6",
+      "name": "PneumaticTitleHeight",
+      "id": "PneumaticTitleHeight"
+    },
+    "QualityStationTitleHeight": {
+      "value": "1.56",
+      "name": "QualityStationTitleHeight",
+      "id": "QualityStationTitleHeight"
+    },
+    "QualityStationKPIHeight": {
+      "value": "1.45",
+      "name": "QualityStationKPIHeight",
+      "id": "QualityStationKPIHeight"
+    },
+    "QualityStationKPILabelHeight": {
+      "value": "1.34",
+      "name": "QualityStationKPILabelHeight",
+      "id": "QualityStationKPILabelHeight"
+    },
+    "OperatorWhiteText": {
+      "value": "font: 32px Arial;fill:rgba(255,255,255, 1)",
+      "name": "OperatorWhiteText",
+      "id": "OperatorWhiteText"
+    }
+  },
+  "device": {
+    "name": "phone",
+    "width": "713px",
+    "height": "402px"
+  },
+  "state": {
+    "orientation": "landscape"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Production Manager",
+          "fileName": "Production_Manager",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Production Manager"
+        },
+        {
+          "name": "Operator",
+          "fileName": "Operator",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Operator"
+        },
+        {
+          "name": "Maintenance Engineer",
+          "fileName": "Maintenance_Engineer",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Maintenance Engineer"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ]
+    }
+  },
+  "allowSelfSignedCerts": true,
+  "version": "1.8.291",
+  "viewType": "ar",
+  "previewUrl": "http://localhost:3000/preview.html?project=${project}&format=${format}&orientation=${orientation}&phone=true",
+  "resourceDirectory": "src/phone/resources",
+  "resourceRuntimeDir": "app/resources",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/phone/fonts"
+}

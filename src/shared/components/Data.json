@@ -1,0 +1,120 @@
+{
+  "attributes": {
+    "namespace": "app.mdl"
+  },
+  "children": [{
+    "attributes": {
+      "name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+      "twx-entity-type": "Things",
+      "twx-entity-name": "PTC.MFGSegment.PrimaryNeedhamRobot"
+    },
+    "name": "twx-model",
+    "children": [{
+      "attributes": {
+        "name": "Anomaly_Detected",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"Anomaly_Detected\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "Availability",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"Availability\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "Performance",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"Performance\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "Quality",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"Quality\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "OEE",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"OEE\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "GoodCount",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"GoodCount\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "RejectCount",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"RejectCount\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "Pneumatic_Flow",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"Pneumatic_Flow\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "Pneumatic_Pressure",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"Pneumatic_Pressure\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "Vibration_vib_level",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"Vibration_vib_level\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "Qual_conv_Drv_Mtr_Temp",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"Qual_conv_Drv_Mtr_Temp\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "Qual_conv_Drv_Mtr_Temp_AnomalyDetected",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"Qual_conv_Drv_Mtr_Temp_AnomalyDetected\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "Vibration_vib_level_AnomalyDetected",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"Vibration_vib_level_AnomalyDetected\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "Pneumatic_Flow_AnomalyDetected",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"Pneumatic_Flow_AnomalyDetected\"]"
+      },
+      "name": "twx-model-property"
+    }, {
+      "attributes": {
+        "name": "Belt_Speed",
+        "twx-auto-refresh": "true",
+        "twx-model": "app.mdl[\"PTC.MFGSegment.PrimaryNeedhamRobot\"].properties[\"Belt_Speed\"]"
+      },
+      "name": "twx-model-property"
+    }]
+  }],
+  "name": "twx-app-mdl"
+}

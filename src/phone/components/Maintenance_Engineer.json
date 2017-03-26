@@ -1,0 +1,921 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "viewtype": "ar",
+    "widget-name": "view-1",
+    "is-widget-container": "true"
+  },
+  "children": [{
+    "name": "twx-container-content",
+    "children": [{
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "2DOverlay-1",
+        "widget-name": "2D Overlay",
+        "is-widget-container": "true"
+      },
+      "name": "twx-overlay",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "panel-1",
+            "position": "top",
+            "widget-name": "Top Panel",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-container",
+          "children": [{
+            "name": "twx-container-content"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "2DOverlayBody-1",
+            "widget-name": "2D Body",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-body",
+          "children": [{
+            "name": "twx-container-content",
+            "children": [{
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-2",
+                "position": "left",
+                "widget-name": "Left Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content"
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-3",
+                "position": "center",
+                "widget-name": "Center Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content",
+                "children": [{
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "toggleButton-1",
+                    "src": "Default/vu_seq_play.svg",
+                    "srcnotpressed": "Default/vu_seq_play.svg",
+                    "background-color": "",
+                    "background-color-pressed": "",
+                    "widget-name": "toggleButton-1"
+                  },
+                  "name": "twx-toggle-button",
+                  "children": [{
+                    "attributes": {
+                      "eventbind-id": "eb-1476219382446",
+                      "src-event": "click",
+                      "handler-type": "ui",
+                      "handler-name": "model-1",
+                      "handler-service": "playAll",
+                      "handler": "app.view[\"model-1\"].svc.playAll"
+                    },
+                    "name": "twx-eventbind"
+                  }]
+                }]
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-4",
+                "position": "right",
+                "widget-name": "Right Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content"
+              }]
+            }]
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "panel-5",
+            "position": "bottom",
+            "widget-name": "Bottom Panel",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-container",
+          "children": [{
+            "name": "twx-container-content"
+          }]
+        }]
+      }]
+    }, {
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "x-18ce4c35-377b-438d-ac2e-efcbaad55733",
+        "camera": "{\"metadata\":{\"version\":4.4,\"type\":\"Object\",\"generator\":\"Object3D.toJSON\"},\"object\":{\"uuid\":\"A43751E1-7912-4BFE-A227-7D2BBD17B7D7\",\"type\":\"PerspectiveCamera\",\"matrix\":[0.03924434632062912,-7.071790930623933e-10,-0.9992296695709229,0,-0.24463242292404175,0.9695683121681213,-0.00960784126073122,0,0.9688212871551514,0.24482101202011108,0.03805007040500641,0,4.945340633392334,2.4185383319854736,0.09989713132381439,1],\"fov\":20,\"zoom\":1,\"near\":0.01,\"far\":20000,\"focus\":10,\"aspect\":1.3516666666666666,\"filmGauge\":35,\"filmOffset\":0}}",
+        "widget-name": "3D Container",
+        "is-widget-container": "true"
+      },
+      "name": "twx-dt-view",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "PneumaticSystemLabel",
+            "text": "Pneumatic System",
+            "textprops": "font: 40px Arial;fill:rgba(255, 255, 255 , 1)",
+            "x": "0.33",
+            "y": "1.4",
+            "z": "0.389",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469128916069",
+              "source-type": "data",
+              "source-name": "PneumaticTitleHeight",
+              "source-item-type": "value",
+              "source-item-name": "PneumaticTitleHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['PneumaticTitleHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "PneumaticAlertImage",
+            "src": "Uploaded/Alert.png",
+            "scale": ".075",
+            "x": "0.33",
+            "y": "1.4",
+            "z": "0.176",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-image",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469128912150",
+              "source-type": "data",
+              "source-name": "PneumaticTitleHeight",
+              "source-item-type": "value",
+              "source-item-name": "PneumaticTitleHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['PneumaticTitleHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485455977388",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Pneumatic_Flow_AnomalyDetected",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Pneumatic_Flow_AnomalyDetected']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "PneumaticFlowDial",
+            "src": "Uploaded/ar-diskblack.pvz",
+            "x": "0.33",
+            "y": "1.28",
+            "z": ".496",
+            "ry": "90"
+          },
+          "name": "twx-dt-model",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469128336836",
+              "source-type": "data",
+              "source-name": "PneumaticGaugesHeight",
+              "source-item-type": "value",
+              "source-item-name": "PneumaticGaugesHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['PneumaticGaugesHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "PneumaticFlowSensor",
+            "src": "Default/vu_gauge1.svg",
+            "fontsize": "40px",
+            "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+            "textx": "64",
+            "texty": "94",
+            "x": "0.3460000137090683",
+            "y": "1.28",
+            "z": ".496",
+            "ry": "90",
+            "canvasheight": "129.3203125",
+            "canvaswidth": "133.73828125",
+            "billboard": "false",
+            "decal": "true"
+          },
+          "name": "twx-dt-sensor",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469128331478",
+              "source-type": "data",
+              "source-name": "PneumaticGaugesHeight",
+              "source-item-type": "value",
+              "source-item-name": "PneumaticGaugesHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['PneumaticGaugesHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485455930232",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Pneumatic_Flow",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Pneumatic_Flow']",
+              "to-property": "text"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "PneumaticFlowLabel",
+            "text": "Flow (LPM)",
+            "textprops": "font: 36px Arial;fill:rgba(255,255,255 , 1)",
+            "x": "0.346",
+            "y": "1.1765403858129229",
+            "z": ".496",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469128180679",
+              "source-type": "data",
+              "source-name": "MaintainenceEngKPIText",
+              "source-item-type": "value",
+              "source-item-name": "MaintainenceEngKPIText",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['MaintainenceEngKPIText']",
+              "to-property": "textprops"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469128406838",
+              "source-type": "data",
+              "source-name": "PneumaticGaugeLabelHeight",
+              "source-item-type": "value",
+              "source-item-name": "PneumaticGaugeLabelHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['PneumaticGaugeLabelHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "PneumaticPressureDial",
+            "src": "Uploaded/ar-diskblack.pvz",
+            "x": "0.33",
+            "y": "1.28",
+            "z": "0.28",
+            "ry": "90"
+          },
+          "name": "twx-dt-model",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469128316123",
+              "source-type": "data",
+              "source-name": "PneumaticGaugesHeight",
+              "source-item-type": "value",
+              "source-item-name": "PneumaticGaugesHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['PneumaticGaugesHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "QualityStationLabel",
+            "text": "Quality Station",
+            "textprops": "font: 40px Arial;fill:rgba(255, 255, 255 , 1)",
+            "x": "0.1",
+            "y": "1.46",
+            "z": "-.775",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469129666087",
+              "source-type": "data",
+              "source-name": "QualityStationTitleHeight",
+              "source-item-type": "value",
+              "source-item-name": "QualityStationTitleHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['QualityStationTitleHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "PneumaticPressureSensor",
+            "src": "Default/vu_gauge1.svg",
+            "fontsize": "40px",
+            "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+            "textx": "64",
+            "texty": "94",
+            "x": "0.3460000137090674",
+            "y": "1.28",
+            "z": "0.28",
+            "ry": "90",
+            "rz": "-2.3696978997167325e-23",
+            "canvasheight": "129.3203125",
+            "canvaswidth": "133.73828125",
+            "billboard": "false",
+            "decal": "true"
+          },
+          "name": "twx-dt-sensor",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469128501314",
+              "source-type": "data",
+              "source-name": "PneumaticGaugesHeight",
+              "source-item-type": "value",
+              "source-item-name": "PneumaticGaugesHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['PneumaticGaugesHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485455934759",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Pneumatic_Pressure",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Pneumatic_Pressure']",
+              "to-property": "text"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "PneumaticPressureLabel",
+            "text": "Pressure (psi)",
+            "textprops": "font: 36px Arial;fill:rgba(255, 255, 255, 1)",
+            "x": "0.346",
+            "y": "1.177",
+            "z": "0.28",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469128598650",
+              "source-type": "data",
+              "source-name": "MaintainenceEngKPIText",
+              "source-item-type": "value",
+              "source-item-name": "MaintainenceEngKPIText",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['MaintainenceEngKPIText']",
+              "to-property": "textprops"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469128653664",
+              "source-type": "data",
+              "source-name": "PneumaticGaugeLabelHeight",
+              "source-item-type": "value",
+              "source-item-name": "PneumaticGaugeLabelHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['PneumaticGaugeLabelHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "QualityStationAlertImage",
+            "src": "Uploaded/Alert.png",
+            "scale": ".075",
+            "x": "0.1",
+            "y": "1.46",
+            "z": "-.972",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-image",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469129659543",
+              "source-type": "data",
+              "source-name": "QualityStationTitleHeight",
+              "source-item-type": "value",
+              "source-item-name": "QualityStationTitleHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['QualityStationTitleHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485456005062",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Vibration_vib_level_AnomalyDetected",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Vibration_vib_level_AnomalyDetected']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "QualityStationSpeedDial",
+            "src": "Uploaded/ar-diskblack.pvz",
+            "x": "0.1",
+            "y": "1.3502296019476425",
+            "z": "-.6",
+            "ry": "90"
+          },
+          "name": "twx-dt-model",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469129834154",
+              "source-type": "data",
+              "source-name": "QualityStationKPIHeight",
+              "source-item-type": "value",
+              "source-item-name": "QualityStationKPIHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['QualityStationKPIHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "QualityStationSpeedSensor",
+            "text": "2640",
+            "src": "Default/vu_gauge1.svg",
+            "fontsize": "40px",
+            "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+            "textx": "64",
+            "texty": "94",
+            "x": "0.11600000208616257",
+            "y": "1.35",
+            "z": "-.6",
+            "ry": "90",
+            "rz": "2.843637479660079e-22",
+            "canvasgrowthoverride": "image",
+            "canvasheight": "128",
+            "canvaswidth": "128",
+            "billboard": "false",
+            "decal": "true"
+          },
+          "name": "twx-dt-sensor",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469129905966",
+              "source-type": "data",
+              "source-name": "QualityStationKPIHeight",
+              "source-item-type": "value",
+              "source-item-name": "QualityStationKPIHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['QualityStationKPIHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1486391517377",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Belt_Speed",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Belt_Speed']",
+              "to-property": "text"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "QualityStationSpeedLabel",
+            "text": "Speed (RPM)",
+            "textprops": "font: 36px Arial;fill:rgba(255,255,255, 1)",
+            "x": ".1",
+            "y": "1.24",
+            "z": "-.6",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469132346486",
+              "source-type": "data",
+              "source-name": "MaintainenceEngKPIText",
+              "source-item-type": "value",
+              "source-item-name": "MaintainenceEngKPIText",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['MaintainenceEngKPIText']",
+              "to-property": "textprops"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469132364997",
+              "source-type": "data",
+              "source-name": "QualityStationKPILabelHeight",
+              "source-item-type": "value",
+              "source-item-name": "QualityStationKPILabelHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['QualityStationKPILabelHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "QualityStationVibrationDial",
+            "src": "Uploaded/ar-diskblack.pvz",
+            "x": "0.1",
+            "y": "1.35",
+            "z": "-.816",
+            "ry": "90"
+          },
+          "name": "twx-dt-model",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469130425658",
+              "source-type": "data",
+              "source-name": "QualityStationKPIHeight",
+              "source-item-type": "value",
+              "source-item-name": "QualityStationKPIHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['QualityStationKPIHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "QualityStationVibrationSensor",
+            "src": "Default/vu_gauge1.svg",
+            "fontsize": "40px",
+            "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+            "textx": "64",
+            "texty": "94",
+            "x": "0.11600000208616257",
+            "y": "1.35",
+            "z": "-.816",
+            "ry": "90",
+            "canvasgrowthoverride": "canvas",
+            "canvasheight": "129",
+            "canvaswidth": "133",
+            "billboard": "false",
+            "decal": "true"
+          },
+          "name": "twx-dt-sensor",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469130655519",
+              "source-type": "data",
+              "source-name": "QualityStationKPIHeight",
+              "source-item-type": "value",
+              "source-item-name": "QualityStationKPIHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['QualityStationKPIHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485455944259",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Vibration_vib_level",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Vibration_vib_level']",
+              "to-property": "text"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "QualityStationVibrationLabel",
+            "text": "Vibr (mm/s)",
+            "textprops": "font: 36px Arial;fill:rgba(255,255,255, 1)",
+            "x": "0.1",
+            "y": "1.240251081804337",
+            "z": "-0.816",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469131839091",
+              "source-type": "data",
+              "source-name": "MaintainenceEngKPIText",
+              "source-item-type": "value",
+              "source-item-name": "MaintainenceEngKPIText",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['MaintainenceEngKPIText']",
+              "to-property": "textprops"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469189008471",
+              "source-type": "data",
+              "source-name": "QualityStationKPILabelHeight",
+              "source-item-type": "value",
+              "source-item-name": "QualityStationKPILabelHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['QualityStationKPILabelHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "QualityStationTemperatureDial",
+            "src": "Uploaded/ar-diskblack.pvz",
+            "x": "0.1",
+            "y": "1.35",
+            "z": "-1.032",
+            "ry": "90"
+          },
+          "name": "twx-dt-model",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469130845612",
+              "source-type": "data",
+              "source-name": "QualityStationKPIHeight",
+              "source-item-type": "value",
+              "source-item-name": "QualityStationKPIHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['QualityStationKPIHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "QualityStationTemperatureSensor",
+            "src": "Default/vu_gauge1.svg",
+            "fontsize": "40px",
+            "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+            "textx": "64",
+            "texty": "94",
+            "x": "0.11600000208616346",
+            "y": "1.35",
+            "z": "-1.032",
+            "ry": "90",
+            "canvasheight": "129.3203125",
+            "canvaswidth": "133.73828125",
+            "billboard": "false",
+            "decal": "true"
+          },
+          "name": "twx-dt-sensor",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469130919160",
+              "source-type": "data",
+              "source-name": "QualityStationKPIHeight",
+              "source-item-type": "value",
+              "source-item-name": "QualityStationKPIHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['QualityStationKPIHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485455954384",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Qual_conv_Drv_Mtr_Temp",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Qual_conv_Drv_Mtr_Temp']",
+              "to-property": "text"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "QualityStationTempLabel",
+            "text": "Temp (C)",
+            "textprops": "font: 36px Arial;fill:rgba(255,255,255, 1)",
+            "x": ".1",
+            "y": "1.24",
+            "z": "-1.032",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469132486756",
+              "source-type": "data",
+              "source-name": "QualityStationKPILabelHeight",
+              "source-item-type": "value",
+              "source-item-name": "QualityStationKPILabelHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['QualityStationKPILabelHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "thingMark-1",
+            "marker-id": "504:1",
+            "width": "0.096",
+            "x": "0.404",
+            "y": "1.00",
+            "z": "-0.323",
+            "rx": "-0.00",
+            "ry": "90.00",
+            "rz": "0.00",
+            "istracked": "true",
+            "tracking-indicator": "true",
+            "decal": "true"
+          },
+          "name": "twx-dt-target",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469133132609",
+              "source-type": "data",
+              "source-name": "vumark",
+              "source-item-type": "value",
+              "source-item-name": "vumark",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['vumark']",
+              "to-property": "markerId"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DModel-1",
+            "src": "Uploaded/BoDRobotOptimized.pvz",
+            "x": "-0.45",
+            "y": ".9",
+            "z": "-.6",
+            "visible": "false"
+          },
+          "name": "twx-dt-model"
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DLabel-1",
+            "text": "Maintenance Engineer",
+            "textprops": "font: 60px Arial;fill:rgba(255, 255, 255 , 1)",
+            "x": "0.33",
+            "y": "1.6756063779731014",
+            "z": "-0.08007116764905708",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-label"
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DLabel-2",
+            "text": "Air flow leak detected!",
+            "textprops": "font: 36px Arial;fill:rgba(255, 217, 0, 1)",
+            "x": "0.33",
+            "y": "1.32",
+            "z": "0.40312706111380736",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1485455990739",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Pneumatic_Flow_AnomalyDetected",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Pneumatic_Flow_AnomalyDetected']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DLabel-3",
+            "text": "Abnormal vibration detected!",
+            "textprops": "font: 36px Arial;fill:rgba(255, 217, 0, 1)",
+            "x": "0.1",
+            "y": "1.29",
+            "z": "-0.8368558915873119",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1485455997626",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Vibration_vib_level_AnomalyDetected",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Vibration_vib_level_AnomalyDetected']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "model-1",
+            "src": "Uploaded/dual_conveyor.pvz",
+            "scale": "1.00",
+            "x": "0.344",
+            "y": "1.15",
+            "z": "0.827",
+            "rx": "0.00",
+            "ry": "90.00",
+            "rz": "0.00",
+            "sequence": "Uploaded/dual_5Fconveyor.pvi"
+          },
+          "name": "twx-dt-model"
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "model-2",
+            "src": "Uploaded/sigmatile_Low.pvz",
+            "x": "0.39",
+            "y": "1.01",
+            "z": "-0.322",
+            "rx": "-90",
+            "rz": "-90",
+            "visible": "false"
+          },
+          "name": "twx-dt-model"
+        }]
+      }]
+    }]
+  }, {
+    "name": "twx-view-data"
+  }],
+  "name": "twx-view"
+}

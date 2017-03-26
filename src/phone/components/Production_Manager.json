@@ -1,0 +1,1070 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "viewtype": "ar",
+    "widget-name": "view-1",
+    "is-widget-container": "true"
+  },
+  "children": [{
+    "name": "twx-container-content",
+    "children": [{
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "x-a216c336-dee5-4ce2-8b87-32d8344968da",
+        "camera": "{\"metadata\":{\"version\":4.4,\"type\":\"Object\",\"generator\":\"Object3D.toJSON\"},\"object\":{\"uuid\":\"55965F70-1BC9-4B4B-A616-A37E81D08FD5\",\"type\":\"PerspectiveCamera\",\"matrix\":[0.09440996497869492,-4.765017713737052e-9,-0.9955335259437561,0,-0.2951699197292328,0.955034613609314,-0.027992011979222298,0,0.9507690668106079,0.2964943051338196,0.09016478806734085,0,5.2413225173950195,2.6877732276916504,0.014383239671587944,1],\"focalLength\":10,\"zoom\":1,\"fov\":20,\"aspect\":1.3333333333333333,\"near\":0.01,\"far\":20000}}",
+        "widget-name": "3D Container",
+        "is-widget-container": "true"
+      },
+      "name": "twx-dt-view",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "thingMark-1",
+            "marker-id": "504:1",
+            "width": "0.096",
+            "x": "0.404",
+            "y": "1.00",
+            "z": "-0.322",
+            "rx": "-180.00",
+            "ry": "90.00",
+            "rz": "-180.00",
+            "istracked": "true",
+            "tracking-indicator": "true",
+            "decal": "true"
+          },
+          "name": "twx-dt-target",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1468880444896",
+              "source-type": "ui",
+              "source-label": "ThingMark",
+              "source-name": "thingMark-1",
+              "source-item-type": "property",
+              "source-item-name": "istracked",
+              "binding-type": "widget_property",
+              "from-expression": "app.view['Plant Supervisor'].wdg['thingMark-1']['istracked']",
+              "to-property": "istracked"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469030987216",
+              "source-type": "data",
+              "source-name": "vumark",
+              "source-item-type": "value",
+              "source-item-name": "vumark",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['vumark']",
+              "to-property": "markerId"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DModel-1",
+            "src": "Uploaded/BoDRobotOptimized.pvz",
+            "x": "-0.45",
+            "y": ".9",
+            "z": "-.6",
+            "ry": "-1",
+            "visible": "false"
+          },
+          "name": "twx-dt-model"
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "Title",
+            "text": "Production Manager",
+            "textprops": "font: 60px Arial;fill:rgba(255,255,255, 1)",
+            "x": "0.3310000131130219",
+            "y": "1.8385638728145604",
+            "z": "-0.13715710463050565",
+            "rx": "0",
+            "ry": "90",
+            "decal": "true",
+            "opacity": "1"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469016702366",
+              "source-type": "data",
+              "source-name": "TitleHeight",
+              "source-item-type": "value",
+              "source-item-name": "TitleHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['TitleHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469025234652",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "Row2AvailabilityLabel",
+            "text": "AVAIL (%)",
+            "textprops": "font: 32px Arial;fill:rgba(255,255,255, 1)",
+            "x": "0.33",
+            "y": "1.74",
+            "z": "0.24779590044151562",
+            "rx": "0",
+            "ry": "90",
+            "widget-name": "AvailabilityLabel"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469017060304",
+              "source-type": "data",
+              "source-name": "KPILabelHeight",
+              "source-item-type": "value",
+              "source-item-name": "KPILabelHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPILabelHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469025246462",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469121000839",
+              "source-type": "data",
+              "source-name": "KPILabelText",
+              "source-item-type": "value",
+              "source-item-name": "KPILabelText",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPILabelText']",
+              "to-property": "textprops"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "AvailabilityDisc",
+            "src": "Uploaded/ar-diskblack.pvz",
+            "x": ".33",
+            "y": "1.65",
+            "z": ".25",
+            "ry": "90"
+          },
+          "name": "twx-dt-model",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469120387354",
+              "source-type": "data",
+              "source-name": "KPI Height",
+              "source-item-type": "value",
+              "source-item-name": "KPI Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPI Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469120396412",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "SensorAvailability",
+            "text": "",
+            "src": "Default/vu_gauge1.svg",
+            "fontsize": "36px",
+            "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+            "textx": "64",
+            "texty": "94",
+            "x": "0.3460000137090683",
+            "y": "1.65",
+            "z": "0.2496021595366279",
+            "ry": "90",
+            "canvasheight": "128",
+            "canvaswidth": "128",
+            "billboard": "false",
+            "decal": "true",
+            "widget-name": "Availability"
+          },
+          "name": "twx-dt-sensor",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1468942568958",
+              "source-type": "data",
+              "source-name": "KPI Height",
+              "source-item-type": "value",
+              "source-item-name": "KPI Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPI Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485455340607",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Availability",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Availability']",
+              "to-property": "text"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "Row2PerformanceLabel",
+            "text": "PERF (%)",
+            "textprops": "font: 32px Arial;fill:rgba(255,255,255, 1)",
+            "x": "0.33",
+            "y": "1.74",
+            "z": "0.004141473234323373",
+            "rx": "0",
+            "ry": "90",
+            "widget-name": "PerformanceLabel"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1468969184603",
+              "source-type": "data",
+              "source-name": "KPILabelHeight",
+              "source-item-type": "value",
+              "source-item-name": "KPILabelHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPILabelHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469025251134",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469121297278",
+              "source-type": "data",
+              "source-name": "KPILabelText",
+              "source-item-type": "value",
+              "source-item-name": "KPILabelText",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPILabelText']",
+              "to-property": "textprops"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "KPIDiscPerformance",
+            "src": "Uploaded/ar-diskblack.pvz",
+            "x": ".33",
+            "y": "1.65",
+            "z": ".01",
+            "ry": "90"
+          },
+          "name": "twx-dt-model",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469120592531",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469120600914",
+              "source-type": "data",
+              "source-name": "KPI Height",
+              "source-item-type": "value",
+              "source-item-name": "KPI Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPI Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "SensorPerformance",
+            "text": "",
+            "src": "Default/vu_gauge1.svg",
+            "fontsize": "36px",
+            "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+            "textx": "64",
+            "texty": "94",
+            "x": "0.3460000137090674",
+            "y": "1.65",
+            "z": "0.01",
+            "rx": "0",
+            "ry": "90",
+            "rz": "-0.0000018633760466156445",
+            "canvasheight": "128",
+            "canvaswidth": "128",
+            "billboard": "false",
+            "decal": "true",
+            "widget-name": "Performance"
+          },
+          "name": "twx-dt-sensor",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1468942654754",
+              "source-type": "data",
+              "source-name": "KPI Height",
+              "source-item-type": "value",
+              "source-item-name": "KPI Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPI Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485455344788",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Performance",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Performance']",
+              "to-property": "text"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "Row2QualityLabel",
+            "text": "QUAL (%)",
+            "textprops": "font: 32px Arial;fill:rgba(255,255,255 , 1)",
+            "x": "0.33",
+            "y": "1.74",
+            "z": "-0.23601984540498738",
+            "rx": "0",
+            "ry": "90",
+            "widget-name": "QualityLabel"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469016908272",
+              "source-type": "data",
+              "source-name": "KPILabelHeight",
+              "source-item-type": "value",
+              "source-item-name": "KPILabelHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPILabelHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469025254101",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469121307747",
+              "source-type": "data",
+              "source-name": "KPILabelText",
+              "source-item-type": "value",
+              "source-item-name": "KPILabelText",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPILabelText']",
+              "to-property": "textprops"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "SensorQuality",
+            "text": "",
+            "src": "Default/vu_gauge1.svg",
+            "fontsize": "36px",
+            "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+            "textx": "64",
+            "texty": "94",
+            "x": "0.3460000137090683",
+            "y": "1.65",
+            "z": "-0.23",
+            "ry": "90",
+            "rz": "-1.6837716285896906e-37",
+            "canvasheight": "128",
+            "canvaswidth": "128",
+            "billboard": "false",
+            "decal": "true",
+            "widget-name": "Quality"
+          },
+          "name": "twx-dt-sensor",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1468942662378",
+              "source-type": "data",
+              "source-name": "KPI Height",
+              "source-item-type": "value",
+              "source-item-name": "KPI Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPI Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485455348812",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Quality",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Quality']",
+              "to-property": "text"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "Row2OEELabel",
+            "text": "OEE (%)",
+            "textprops": "font: 32px Arial;fill:rgba(255,255,255, 1)",
+            "x": "0.34600001370906786",
+            "y": "1.74",
+            "z": "-0.5",
+            "rx": "0",
+            "ry": "90",
+            "decal": "true",
+            "opacity": "1",
+            "widget-name": "OEELabel"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469121262666",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469121312133",
+              "source-type": "data",
+              "source-name": "KPILabelText",
+              "source-item-type": "value",
+              "source-item-name": "KPILabelText",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPILabelText']",
+              "to-property": "textprops"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469122673006",
+              "source-type": "data",
+              "source-name": "KPILabelHeight",
+              "source-item-type": "value",
+              "source-item-name": "KPILabelHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPILabelHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "OEEDisc",
+            "src": "Uploaded/ar-diskblack.pvz",
+            "x": "0.33",
+            "y": "1.65",
+            "z": "-0.5",
+            "ry": "90"
+          },
+          "name": "twx-dt-model",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469117010114",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469117014348",
+              "source-type": "data",
+              "source-name": "KPI Height",
+              "source-item-type": "value",
+              "source-item-name": "KPI Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPI Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "SensorOEE",
+            "text": "",
+            "src": "Default/vu_gauge1.svg",
+            "fontsize": "36px",
+            "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+            "textx": "64",
+            "texty": "94",
+            "x": "0.346",
+            "y": "1.65",
+            "z": "-.5",
+            "ry": "90",
+            "canvasheight": "128",
+            "canvaswidth": "128",
+            "billboard": "false",
+            "decal": "true",
+            "widget-name": "OEE"
+          },
+          "name": "twx-dt-sensor",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1468942645906",
+              "source-type": "data",
+              "source-name": "KPI Height",
+              "source-item-type": "value",
+              "source-item-name": "KPI Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPI Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485455353174",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "OEE",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['OEE']",
+              "to-property": "text"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "ProductionOrderImage",
+            "src": "Uploaded/order-number.png",
+            "scale": ".3",
+            "x": "0.33",
+            "y": "1.525",
+            "z": "0.2513048203961555",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-image",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1468968339521",
+              "source-type": "data",
+              "source-name": "Order Height",
+              "source-item-type": "value",
+              "source-item-name": "Order Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Order Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469025315984",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "ProductionOrderValue",
+            "text": "PO1223",
+            "textprops": "font: 36px Arial;fill:rgba(255,255,255, 1)",
+            "x": "0.33",
+            "y": "1.525",
+            "z": "0.09699092006061358",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1468943470971",
+              "source-type": "data",
+              "source-name": "Order Height",
+              "source-item-type": "value",
+              "source-item-name": "Order Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Order Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469025309440",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "ProductionOrderQuantityImage",
+            "src": "Uploaded/quantity.png",
+            "scale": ".33",
+            "x": "0.33",
+            "y": "1.525",
+            "z": "-0.07837800614851406",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-image",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469025321105",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469025527706",
+              "source-type": "data",
+              "source-name": "Order Height",
+              "source-item-type": "value",
+              "source-item-name": "Order Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Order Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "ProductionOrderQtyGoodValue",
+            "text": "QtyGood",
+            "textprops": "font: 36px Arial;fill:rgba(0, 171, 138 , 1)",
+            "x": "0.33",
+            "y": "1.525",
+            "z": "-0.20948834060080812",
+            "rx": "0",
+            "ry": "90",
+            "decal": "true",
+            "widget-name": "QtyGoodLabel"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469025327727",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469025632756",
+              "source-type": "data",
+              "source-name": "Order Height",
+              "source-item-type": "value",
+              "source-item-name": "Order Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Order Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485455360334",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "GoodCount",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['GoodCount']",
+              "to-property": "text"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "ProductionOrderofLabel",
+            "text": "/",
+            "textprops": "font: 36px Arial;fill:rgba(255,255,255, 1)",
+            "x": "0.33",
+            "y": "1.525",
+            "z": "-0.3289570709507268",
+            "rx": "0",
+            "ry": "90",
+            "decal": "true",
+            "widget-name": "ofLabel"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469025333752",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469025596172",
+              "source-type": "data",
+              "source-name": "Order Height",
+              "source-item-type": "value",
+              "source-item-name": "Order Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Order Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "ProductionOrderQtyReqdValue",
+            "text": "QtyReqd",
+            "textprops": "font: 36px Arial;fill:rgba(175, 31, 36, 1)",
+            "x": "0.33",
+            "y": "1.525",
+            "z": "-0.4591656574973252",
+            "rx": "0",
+            "ry": "90",
+            "decal": "true",
+            "widget-name": "QtyReqdValue"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469025339136",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469025550610",
+              "source-type": "data",
+              "source-name": "Order Height",
+              "source-item-type": "value",
+              "source-item-name": "Order Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Order Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485455365726",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "RejectCount",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['RejectCount']",
+              "to-property": "text"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "AlertImage",
+            "src": "Uploaded/Alert.png",
+            "scale": ".1",
+            "x": "0.33",
+            "y": "1.79",
+            "z": "0.10839019927027332",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-image",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469025237979",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469025358976",
+              "source-type": "data",
+              "source-name": "AlertsHeight",
+              "source-item-type": "value",
+              "source-item-name": "AlertsHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['AlertsHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485455383606",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Anomaly_Detected",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Anomaly_Detected']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "AlertValue",
+            "text": "Anomaly Detected!",
+            "textprops": "font: 36px Arial;fill:rgba(255, 217, 0, 1)",
+            "x": "0.33",
+            "y": "1.79",
+            "z": "-0.18009382959475612",
+            "rx": "0",
+            "ry": "90"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1468958590221",
+              "source-type": "data",
+              "source-name": "AlertsHeight",
+              "source-item-type": "value",
+              "source-item-name": "AlertsHeight",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['AlertsHeight']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469025347543",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1485455388845",
+              "source-type": "data",
+              "source-name": "PTC.MFGSegment.PrimaryNeedhamRobot",
+              "source-item-type": "property",
+              "source-item-name": "Anomaly_Detected",
+              "binding-type": "property_field",
+              "from-expression": "app.mdl['PTC.MFGSegment.PrimaryNeedhamRobot'].properties['Anomaly_Detected']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DModel-15",
+            "src": "Uploaded/ar-diskblack.pvz",
+            "x": ".33",
+            "y": "1.65",
+            "z": "-.23",
+            "ry": "90"
+          },
+          "name": "twx-dt-model",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1469120878767",
+              "source-type": "data",
+              "source-name": "Depth",
+              "source-item-type": "value",
+              "source-item-name": "Depth",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Depth']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1469120884825",
+              "source-type": "data",
+              "source-name": "KPI Height",
+              "source-item-type": "value",
+              "source-item-name": "KPI Height",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['KPI Height']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "model-1",
+            "src": "Uploaded/sigmatile_Low.pvz",
+            "scale": "1.00",
+            "x": "0.390",
+            "y": "1.01",
+            "z": "-0.322",
+            "rx": "-90.00",
+            "ry": "0.00",
+            "rz": "-90.00",
+            "visible": "false"
+          },
+          "name": "twx-dt-model"
+        }]
+      }]
+    }, {
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "2DOverlay-1",
+        "widget-name": "2D Overlay",
+        "is-widget-container": "true"
+      },
+      "name": "twx-overlay",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "panel-1",
+            "position": "top",
+            "widget-name": "Top Panel",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-container",
+          "children": [{
+            "name": "twx-container-content"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "panel-5",
+            "position": "bottom",
+            "widget-name": "Bottom Panel",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-container",
+          "children": [{
+            "name": "twx-container-content"
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "name": "twx-view-data"
+  }],
+  "name": "twx-view"
+}

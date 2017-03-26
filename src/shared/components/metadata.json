@@ -1,0 +1,57 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "requires": ["w320dp"],
+  "experiences": [{
+    "vumark": "1365:1",
+    "thingTemplateName": "",
+    "viewName": "Maintenance_Engineer",
+    "xperienceType": "vumark",
+    "index-keys": ["urn:vuforia:vumark:1365:1"],
+    "title": {
+      "en": "Maintenance Engineer"
+    },
+    "description": {
+      "en": "",
+      "en-us": ""
+    },
+    "requires": [],
+    "url-template": "index.html?expIndex=0#/Maintenance_Engineer?thing={{thingworx:thing}}&vumark={{vuforia:vumark}}",
+    "thumbnail": ""
+  }, {
+    "vumark": "1365:1",
+    "xperienceType": "vumark",
+    "index-keys": ["urn:vuforia:vumark:1365:1"],
+    "title": {
+      "en": "Production Manager"
+    },
+    "description": {
+      "en": "",
+      "en-us": ""
+    },
+    "requires": [],
+    "tags": [],
+    "icon": "",
+    "viewName": "Production_Manager",
+    "url-template": "index.html?expIndex=1#/Production_Manager?thing={{thingworx:thing}}&vumark={{vuforia:vumark}}",
+    "thumbnail": ""
+  }, {
+    "vumark": "1365:1",
+    "xperienceType": "vumark",
+    "index-keys": ["urn:vuforia:vumark:1365:1"],
+    "title": {
+      "en": "Operator"
+    },
+    "description": {
+      "en": "",
+      "en-us": ""
+    },
+    "requires": ["AR-tracking"],
+    "tags": [],
+    "icon": "",
+    "viewName": "Operator",
+    "url-template": "index.html?expIndex=2#/Operator?thing={{thingworx:thing}}&vumark={{vuforia:vumark}}",
+    "thumbnail": ""
+  }],
+  "accessType": "public"
+}
